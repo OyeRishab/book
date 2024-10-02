@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/store.ts","./src/vite-env.d.ts","./src/features/bookslice.ts","./src/pages/bookdetail.tsx","./src/pages/home.tsx","./src/queries/fetchbook.ts","./src/queries/fetchbooks.ts","./src/queries/postbook.ts","./src/queries/postreview.ts"],"version":"5.6.2"}

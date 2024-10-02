@@ -9,7 +9,7 @@ interface PostReviewRequest {
 
 export const usePostReview = (id: string) => {
   const postReview = async (review: PostReviewRequest) => {
-    const response = await fetch("http://localhost:5000/api/reviews", {
+    const response = await fetch("https://book-a8hg.onrender.com/api/reviews", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

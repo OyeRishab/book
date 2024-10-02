@@ -8,7 +8,9 @@ interface FetchBooksResponse {
 
 export const useFetchBook = (id: string) => {
   const fetchBook = async (): Promise<FetchBooksResponse> => {
-    const response = await fetch(`http://localhost:5000/api/books/${id}`);
+    const response = await fetch(
+      `https://book-a8hg.onrender.com/api/books/${id}`
+    );
     if (!response.ok) {
       throw new Error("An error occurred while fetching the books");
     }
